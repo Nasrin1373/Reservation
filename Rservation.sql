@@ -1,7 +1,7 @@
 create table Reservations (
 	reservation_id INT,
-	id_client NUMBER,
-	bike_id NUMBER,
+	id_client INT,
+	bike_id INT,
 	start_time DATE,
 	end_time DATE,
 	is_cancelled BOOLEAN
